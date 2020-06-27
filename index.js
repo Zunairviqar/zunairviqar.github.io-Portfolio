@@ -1,59 +1,59 @@
 $(document).ready(function(){
-  $("#arrow1").mouseenter(function(){
+  $(".arrow1").mouseenter(function(){
     $("#click").show();
   });
-  $("#arrow1").click(function(){
+  $(".arrow1").click(function(){
     location.replace("education.html")
   });
 });
 
 $(document).ready(function(){
-  $("#arrow1").mouseleave(function(){
+  $(".arrow1").mouseleave(function(){
     $("#click").hide();
   });
 });
 
 $(document).ready(function(){
-  $("#arrow2").mouseenter(function(){
+  $(".arrow2").mouseenter(function(){
     $("#click").show();
   });
-  $("#arrow2").click(function(){
+  $(".arrow2").click(function(){
     location.replace("projects.html")
   });
 });
 
 $(document).ready(function(){
-  $("#arrow2").mouseleave(function(){
+  $(".arrow2").mouseleave(function(){
     $("#click").hide();
   });
 });
 
 $(document).ready(function(){
-  $("#arrow3").mouseenter(function(){
+  $(".arrow3").mouseenter(function(){
     $("#click").show();
   });
-  $("#arrow3").click(function(){
+  $(".arrow3").click(function(){
     location.replace("contact.html")
   });
 });
 
 $(document).ready(function(){
-  $("#arrow3").mouseleave(function(){
+  $(".arrow3").mouseleave(function(){
     $("#click").hide();
   });
 });
 
 $(document).ready(function(){
-  $("#arrow4").mouseenter(function(){
+  $(".arrow4").mouseenter(function(){
     $("#click").show();
   });
-  $("#arrow4").click(function(){
+  $(".arrow4").click(function(){
     location.replace("experiences.html")
   });
 });
 
 $(document).ready(function(){
-  $("#arrow4").mouseleave(function(){
+  $(".arrow4").mouseleave(function(){
     $("#click").hide();
   });
 });

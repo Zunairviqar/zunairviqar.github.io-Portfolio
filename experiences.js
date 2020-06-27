@@ -4,9 +4,6 @@ $(document).ready(function(){
     $("#headings").fadeOut("fast");
     $("#click").show();
   });
-  $("#arrow1").click(function(){
-    location.replace("https://zunairviqar.github.io/")
-  });
 });
 
 $(document).ready(function(){
@@ -22,9 +19,6 @@ $(document).ready(function(){
     $("#undergradheadings").fadeIn("slow");
     $("#headings").fadeOut("fast");
     $("#click").show();
-  });
-  $("#arrow2").click(function(){
-    location.replace("https://pam3mapc.github.io/pam3mapc.github.io-Cuyagua/index.html")
   });
 });
 
@@ -42,9 +36,6 @@ $(document).ready(function(){
     $("#gradheadings").fadeIn("slow");
     $("#headings").fadeOut("fast");
     $("#click").show();
-  });
-  $("#arrow3").click(function(){
-    location.replace("https://zunairviqar.github.io/zunairviqar.github.io-Movie/index.html")
   });
 
 });
@@ -64,9 +55,7 @@ $(document).ready(function(){
     $("#headings").fadeOut("fast");
     $("#click").show();
   });
-  $("#arrow4").click(function(){
-    location.replace("https://zunairviqar.github.io/zunairviqar.github.io-Comic/index.html")
-  });
+
 });
 
 $(document).ready(function(){
