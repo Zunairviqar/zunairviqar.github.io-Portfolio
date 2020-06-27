@@ -1,0 +1,368 @@
+*{
+  padding:0;
+  margin:0;
+  text-decoration: none;
+  list-style:none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #01011C;
+  /* background-color: #040433; */
+}
+
+.first-title{
+  color:white;
+  font-size: 4vw;
+  position: absolute;
+  top:35%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.second-title{
+  color:white;
+  font-size: 1.5vw;
+  margin-top: 1vh;
+  position: absolute;
+  top:45%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+}
+
+.midschoolheadings{
+  display: none;
+}
+.first-title2{
+  color:white;
+  /* width: 100%; */
+  font-size: 3vw;
+  position: absolute;
+  top:35%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.second-title2{
+  color:white;
+  font-size: 1.5vw;
+  margin-top: 1vh;
+  position: absolute;
+  top:45%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+}
+
+.highschoolheadings{
+  display: none;
+}
+
+.first-title3{
+  color:white;
+  /* width: 100%; */
+  font-size: 3vw;
+  position: absolute;
+  top:35%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.second-title3{
+  color:white;
+  font-size: 1.5vw;
+  margin-top: 1vh;
+  position: absolute;
+  top:45%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+}
+
+.undergradheadings{
+  display: none;
+}
+.first-title4{
+  color:white;
+  /* width: 100%; */
+  font-size: 3vw;
+  position: absolute;
+  top:35%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.second-title4{
+  color:white;
+  font-size: 1.5vw;
+  margin-top: 1vh;
+  position: absolute;
+  top:45%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+}
+
+.gradheadings{
+  display: none;
+}
+.first-title5{
+  color:white;
+  /* width: 100%; */
+  font-size: 3vw;
+  position: absolute;
+  top:35%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.second-title5{
+  color:white;
+  font-size: 1.5vw;
+  margin-top: 1vh;
+  position: absolute;
+  top:45%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+}
+.click{
+  color:white;
+  font-size: 1.5vw;
+  margin-top: 1vh;
+  position: absolute;
+  top:65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* visibility: hidden; */
+  display: none;
+}
+
+.arrow1{
+  background-color: red;
+}
+.arrowtop{
+  height:4vw;
+  position: absolute;
+  top:5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.education{
+  color:white;
+  font-size: 1.5vw;
+  position: absolute;
+  top:12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.arrowbottom{
+  height:4vw;
+  position: absolute;
+  top:91%;
+  left: 46.5%;
+  transform: translate(-50%, -50%);
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+.projects{
+  color:white;
+  font-size: 1.5vw;
+  position: absolute;
+  top:86.5%;
+  left: 45.5%;
+  transform: translate(-50%, -50%);
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+.arrowleft{
+  height:4vw;
+  position: absolute;
+  top:47%;
+  left: 0%;
+  transform: rotate(270deg);
+  cursor: pointer;
+}
+
+.contact{
+  color:white;
+  font-size: 1.5vw;
+  position: absolute;
+  top:49%;
+  left: 2.5%;
+  transform: rotate(270deg);
+  cursor: pointer;
+}
+.arrowright{
+  height:4vw;
+  position: absolute;
+  top:47%;
+  left: 94vw;
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+
+.experiences{
+  color:white;
+  font-size: 1.5vw;
+  position: absolute;
+  top:49%;
+  left: 89vw;
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+
+.arrow:hover{
+  opacity: 0.2;
+  transition: 0.5s;
+}
+
+/* Inspired by https://html-online.com/articles/blinking-text-css-animation/ */
+.blinking{
+    animation:blinkingText 1.0s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000; }
+    49%{    color: white; }
+    /* 60%{    color: white; }
+    99%{    color:#000;  } */
+    100%{   color: #000;    }
+}
+nav{
+  background: #1F201D;
+  height:80px;
+  width:100%;
+}
+label.logo{
+  color:#8b5025;
+  font-size: 50px;
+  line-height: 80px;
+  padding: 0 50px;
+  /* font-weight: bold; */
+}
+
+nav ul{
+  float:right;
+  margin-right:20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color:white;
+  font-size:17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform:uppercase;
+}
+
+a.active, a:hover{
+  background: #2D2C2C;
+  transition: .5s;
+}
+
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float:right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display:none;
+}
+#check{
+  display: none;
+}
+
+@media (max-width:952px){
+  label.logo{
+    font-size:30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  svg{
+    width: 50%;
+    height:50%;
+    border: none;
+  }
+}
+@media (max-width:858px){
+  .checkbtn{
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #1F201D;
+    top:80px;
+    left:-100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display:block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size:20px;
+  }
+  a:hover, a.active{
+    background: none;
+    color:#8b5025;
+  }
+  object{
+    border: 2px solid black;
+  }
+  #check:checked ~ ul{
+    left:0;
+    /* top:80px; */
+    height:100vh;
+    bottom:0;
+  }
+  svg{
+    width: 50%;
+    height:50%;
+  }
+}
+
+
+
+
+
+
+/* @keyframes my-move
+{
+ 0% {opacity: 0;}
+ 80%{opacity: 0;}
+ 100% {opacity: 1;}
+} */
+
+/* .Main-Heading2{
+  position: absolute;
+  top:65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2vw;
+  font-family: myFirstFont;
+  color: lightgrey;
+  text-align: center;
+  animation-name: my-move;
+  animation-duration: 4s;
+} */
+
+/* @font-face {
+  font-family: myFirstFont;
+  src: url(edosz.ttf);
+  font-weight: 300;
+} */

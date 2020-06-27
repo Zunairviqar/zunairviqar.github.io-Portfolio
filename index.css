@@ -1,0 +1,225 @@
+*{
+  padding:0;
+  margin:0;
+  text-decoration: none;
+  list-style:none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #01011C;
+  /* background-color: #040433; */
+}
+
+.zunair{
+  color:white;
+  font-size: 8vw;
+  position: absolute;
+  top:45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.survival{
+  color:white;
+  font-size: 1.5vw;
+  margin-top: 1vh;
+  position: absolute;
+  top:55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.click{
+  color:white;
+  font-size: 1.5vw;
+  margin-top: 1vh;
+  position: absolute;
+  top:65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* visibility: hidden; */
+  display: none;
+}
+
+.arrow1{
+  background-color: red;
+}
+.arrowtop{
+  height:4vw;
+  position: absolute;
+  top:5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.education{
+  color:white;
+  font-size: 1.5vw;
+  position: absolute;
+  top:12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.arrowbottom{
+  height:4vw;
+  position: absolute;
+  top:91%;
+  left: 46.5%;
+  transform: translate(-50%, -50%);
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+.projects{
+  color:white;
+  font-size: 1.5vw;
+  position: absolute;
+  top:87%;
+  left: 46.5%;
+  transform: translate(-50%, -50%);
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+.arrowleft{
+  height:4vw;
+  position: absolute;
+  top:47%;
+  left: 0%;
+  transform: rotate(270deg);
+  cursor: pointer;
+}
+
+.contact{
+  color:white;
+  font-size: 1.5vw;
+  position: absolute;
+  top:49%;
+  left: 3.5%;
+  transform: rotate(270deg);
+  cursor: pointer;
+}
+.arrowright{
+  height:4vw;
+  position: absolute;
+  top:47%;
+  left: 94vw;
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+
+.experiences{
+  color:white;
+  font-size: 1.5vw;
+  position: absolute;
+  top:49%;
+  left: 89vw;
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+
+.arrow:hover{
+  opacity: 0.2;
+  transition: 0.5s;
+}
+
+/* Inspired by https://html-online.com/articles/blinking-text-css-animation/ */
+.blinking{
+    animation:blinkingText 1.0s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000; }
+    49%{    color: white; }
+    /* 60%{    color: white; }
+    99%{    color:#000;  } */
+    100%{   color: #000;    }
+}
+
+
+@media (max-width:952px){
+  .education{
+    font-size: 1.5vw;
+    position: absolute;
+    top:9%;
+    left: 50%;
+  }
+
+  .experiences{
+    font-size: 1.5vw;
+    position: absolute;
+    top:48%;
+    left: 89vw;
+  }
+
+  .projects{
+    font-size: 1.5vw;
+    position: absolute;
+    top:88%;
+    left: 46.5%;
+  }
+  .contact{
+    font-size: 1.5vw;
+    position: absolute;
+    top:48.5%;
+    left: 3.5%;
+  }
+}
+@media (max-width:858px){
+  .survival{
+    color:white;
+    font-size: 1.5vw;
+    margin-top: 1vh;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .click{
+    color:white;
+    font-size: 1.5vw;
+    margin-top: 1vh;
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* visibility: hidden; */
+    display: none;
+  }
+  .education{
+    font-size: 1.5vw;
+    position: absolute;
+    top:8%;
+    left: 50%;
+  }
+
+  .experiences{
+    font-size: 1.5vw;
+    position: absolute;
+    top:48%;
+    left: 89vw;
+  }
+  .arrowbottom{
+    height:4vw;
+    position: absolute;
+    top:94%;
+    left: 46.5%;
+  }
+  .projects{
+    font-size: 1.5vw;
+    position: absolute;
+    top:92%;
+    left: 46.5%;
+  }
+  .contact{
+    font-size: 1.5vw;
+    position: absolute;
+    top:48%;
+    left: 3.5%;
+  }
+}
