@@ -162,7 +162,7 @@ body{
 .education{
   color:white;
   font-size: 1.5vw;
-  background-color: red;
+  /* background-color: red; */
   padding-top: 20px;
   position: absolute;
   top:12%;
@@ -182,6 +182,8 @@ body{
 }
 
 .projects{
+  /* background-color: yellow; */
+  padding-top: 20px;
   color:white;
   font-size: 1.5vw;
   position: absolute;
@@ -202,6 +204,8 @@ body{
 }
 
 .contact{
+  /* background-color: blue; */
+  padding-top: 26px;
   color:white;
   font-size: 1.5vw;
   position: absolute;
@@ -220,6 +224,8 @@ body{
 }
 
 .experiences{
+  /* background-color: green; */
+  padding-top: 20px;
   color:white;
   font-size: 1.5vw;
   position: absolute;
@@ -296,57 +302,85 @@ a.active, a:hover{
 }
 
 @media (max-width:952px){
-  label.logo{
-    font-size:30px;
-    padding-left: 50px;
+  .education{
+    font-size: 1.5vw;
+    position: absolute;
+    top:9%;
+    left: 50%;
   }
-  nav ul li a{
-    font-size: 16px;
+
+  .experiences{
+    font-size: 1.5vw;
+    position: absolute;
+    top:48%;
+    left: 89vw;
   }
-  svg{
-    width: 50%;
-    height:50%;
-    border: none;
+
+  .projects{
+    font-size: 1.5vw;
+    position: absolute;
+    top:88%;
+    left: 46.5%;
+  }
+  .contact{
+    font-size: 1.5vw;
+    position: absolute;
+    top:48.5%;
+    left: 3.5%;
   }
 }
 @media (max-width:858px){
-  .checkbtn{
-    display: block;
+  .survival{
+    color:white;
+    font-size: 1.5vw;
+    margin-top: 1vh;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
-  ul {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #1F201D;
-    top:80px;
-    left:-100%;
-    text-align: center;
-    transition: all .5s;
+
+  .click{
+    color:white;
+    font-size: 1.5vw;
+    margin-top: 1vh;
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* visibility: hidden; */
+    display: none;
   }
-  nav ul li{
-    display:block;
-    margin: 50px 0;
-    line-height: 30px;
+  .education{
+    font-size: 1.5vw;
+    position: absolute;
+    top:7%;
+    left: 50%;
   }
-  nav ul li a{
-    font-size:20px;
+
+  .experiences{
+    font-size: 1.5vw;
+    position: absolute;
+    top:46%;
+    left: 89vw;
   }
-  a:hover, a.active{
-    background: none;
-    color:#8b5025;
+  .arrowbottom{
+    height:4vw;
+    position: absolute;
+    top:94%;
+    left: 46.5%;
   }
-  object{
-    border: 2px solid black;
+  .projects{
+    font-size: 1.5vw;
+    position: absolute;
+    top:92%;
+    left: 46.5%;
   }
-  #check:checked ~ ul{
-    left:0;
-    /* top:80px; */
-    height:100vh;
-    bottom:0;
-  }
-  svg{
-    width: 50%;
-    height:50%;
+  .contact{
+    font-size: 1.5vw;
+    position: absolute;
+    top:46%;
+    left: 2%;
   }
 }
 

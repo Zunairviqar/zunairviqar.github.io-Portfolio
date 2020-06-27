@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $("#arrow1").mouseenter(function(){
-    $("#midschoolheadings").fadeIn("slow");
+    $("#midschoolheadings").fadeIn("fast");
     $("#headings").fadeOut("fast");
     $("#click").show();
   });
@@ -11,7 +11,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#arrow1").mouseleave(function(){
-    $("#headings").fadeIn("slow");
+    $("#headings").fadeIn("fast");
     $("#midschoolheadings").fadeOut("fast");
     $("#click").hide();
   });
@@ -19,7 +19,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#arrow2").mouseenter(function(){
-    $("#undergradheadings").fadeIn("slow");
+    $("#undergradheadings").fadeIn("fast");
     $("#headings").fadeOut("fast");
     $("#click").show();
   });
@@ -30,7 +30,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#arrow2").mouseleave(function(){
-    $("#headings").fadeIn("slow");
+    $("#headings").fadeIn("fast");
     $("#undergradheadings").fadeOut("fast");
     $("#click").hide();
 
@@ -39,7 +39,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#arrow3").mouseenter(function(){
-    $("#gradheadings").fadeIn("slow");
+    $("#gradheadings").fadeIn("fast");
     $("#headings").fadeOut("fast");
     $("#click").show();
   });
@@ -51,7 +51,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#arrow3").mouseleave(function(){
-    $("#headings").fadeIn("slow");
+    $("#headings").fadeIn("fast");
     $("#gradheadings").fadeOut("fast");
     $("#click").hide();
 
@@ -60,7 +60,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#arrow4").mouseenter(function(){
-    $("#highschoolheadings").fadeIn("slow");
+    $("#highschoolheadings").fadeIn("fast");
     $("#headings").fadeOut("fast");
     $("#click").show();
   });
@@ -71,7 +71,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#arrow4").mouseleave(function(){
-    $("#headings").fadeIn("slow");
+    $("#headings").fadeIn("fast");
     $("#highschoolheadings").fadeOut("fast");
     $("#click").hide();
 

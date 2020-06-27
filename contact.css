@@ -138,6 +138,7 @@ textarea {
  position: absolute;
  background-color: white;
  min-width: 140px;
+ z-index:1;
 }
 
 .dropdown-content a {
